@@ -151,7 +151,7 @@ function Recovery() {
               )}
             </Form.Group>
             <ReCAPTCHA
-              sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
+              sitekey={"6LcDPnUrAAAAAN8kG8zJu2ZZ1gUleTUZXaA9di1x"}
               onChange={setRecaptchaToken}
               className="my-3"
             />
