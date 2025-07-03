@@ -251,7 +251,7 @@ function CreateRegister() {
                   </Form.Group>
 
                   <ReCAPTCHA
-                    sitekey={"6LcDPnUrAAAAAN8kG8zJu2ZZ1gUleTUZXaA9di1x"}
+                    sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
                     onChange={setRecaptchaToken}
                     className="my-3"
                   />
